@@ -1,0 +1,11 @@
+/snippets
+/target
+/.classpath
+/.project
+/.springBeans
+/build.gradle
+/gradlew
+/gradlew.bat
+/.mvn
+/.settings
+/gradle

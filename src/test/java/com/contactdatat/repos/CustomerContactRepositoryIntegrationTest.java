@@ -1,4 +1,4 @@
-package com.hanselnpetal.data.repos;
+package com.contactdatat.repos;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
@@ -13,7 +13,8 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.hanselnpetal.domain.CustomerContact;
+import com.contactdata.domain.CustomerContact;
+import com.contactdata.repos.CustomerContactRepository;
 
 @RunWith(SpringRunner.class)
 @DataJpaTest

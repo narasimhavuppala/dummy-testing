@@ -1,4 +1,4 @@
-package com.hanselnpetal.service;
+package com.contactdatat.service;
 
 import static org.junit.Assert.*;
 import static org.mockito.Matchers.any;
@@ -14,8 +14,9 @@ import org.mockito.runners.MockitoJUnitRunner;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 
-import com.hanselnpetal.data.repos.CustomerContactRepository;
-import com.hanselnpetal.domain.CustomerContact;
+import com.contactdata.domain.CustomerContact;
+import com.contactdata.repos.CustomerContactRepository;
+import com.contactdata.service.ContactsManagementService;
 
 @RunWith(MockitoJUnitRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.NONE)

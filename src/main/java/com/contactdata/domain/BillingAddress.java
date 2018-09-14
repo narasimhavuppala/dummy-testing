@@ -1,4 +1,4 @@
-package com.hanselnpetal.domain;
+package com.contactdata.domain;
 
 public class BillingAddress {
 

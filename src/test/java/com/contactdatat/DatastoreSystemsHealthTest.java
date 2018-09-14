@@ -1,4 +1,4 @@
-package com.hanselnpetal;
+package com.contactdatat;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;

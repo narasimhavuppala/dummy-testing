@@ -1,8 +1,8 @@
-package com.hanselnpetal.data.repos;
+package com.contactdata.repos;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.hanselnpetal.domain.CustomerContact;
+import com.contactdata.domain.CustomerContact;
 
 public interface CustomerContactRepository extends CrudRepository<CustomerContact, Long> {
 

@@ -1,4 +1,4 @@
-package com.hanselnpetal.data.repos;
+package com.contactdatat.repos;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
@@ -17,14 +17,16 @@ import org.springframework.test.context.support.DependencyInjectionTestExecution
 import org.springframework.test.context.support.DirtiesContextTestExecutionListener;
 import org.springframework.test.context.transaction.TransactionalTestExecutionListener;
 
+import com.contactdata.domain.CustomerContact;
+import com.contactdata.repos.CustomerContactRepository;
 import com.github.springtestdbunit.DbUnitTestExecutionListener;
 import com.github.springtestdbunit.annotation.DatabaseSetup;
-import com.hanselnpetal.domain.CustomerContact;
 
 @RunWith(SpringRunner.class)
 @DataJpaTest
 @AutoConfigureTestDatabase(replace=Replace.NONE)
-@TestExecutionListeners({ DependencyInjectionTestExecutionListener.class,
+@TestExecutionListeners(
+{ DependencyInjectionTestExecutionListener.class,
     DirtiesContextTestExecutionListener.class,
    TransactionalTestExecutionListener.class,
     DbUnitTestExecutionListener.class })

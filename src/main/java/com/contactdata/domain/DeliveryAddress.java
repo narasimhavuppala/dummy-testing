@@ -1,4 +1,4 @@
-package com.hanselnpetal.domain;
+package com.contactdata.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

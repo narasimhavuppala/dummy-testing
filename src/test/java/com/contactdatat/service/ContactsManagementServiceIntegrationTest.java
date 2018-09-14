@@ -1,4 +1,4 @@
-package com.hanselnpetal.service;
+package com.contactdatat.service;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -8,12 +8,16 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.hanselnpetal.domain.CustomerContact;
+import com.contactdata.controller.ContactsManagementController;
+import com.contactdata.domain.CustomerContact;
+import com.contactdata.service.ContactsManagementService;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(webEnvironment = WebEnvironment.NONE)
+@SpringBootTest(classes= {ContactsManagementController.class},webEnvironment = WebEnvironment.NONE)
+
 public class ContactsManagementServiceIntegrationTest {
 	
 	@Autowired

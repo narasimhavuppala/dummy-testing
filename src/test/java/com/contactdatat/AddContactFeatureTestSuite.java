@@ -1,11 +1,11 @@
-package com.hanselnpetal;
+package com.contactdatat;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
-import com.hanselnpetal.controller.ContactsManagementControllerIntegrationTest;
-import com.hanselnpetal.data.repos.CustomerContactRepositoryIntegrationTest;
-import com.hanselnpetal.service.ContactsManagementServiceIntegrationTest;
+import com.contactdatat.controller.ContactsManagementControllerIntegrationTest;
+import com.contactdatat.repos.CustomerContactRepositoryIntegrationTest;
+import com.contactdatat.service.ContactsManagementServiceIntegrationTest;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses ({ContactsManagementServiceIntegrationTest.class, ContactsManagementControllerIntegrationTest.class, CustomerContactRepositoryIntegrationTest.class})

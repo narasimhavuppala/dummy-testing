@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.contactdata.domain.CustomerContact;
 import com.contactdata.service.ContactsManagementService;
 
-@RestController("/api")
+@RestController
+@RequestMapping("/api")
 public class ContactDemoController {
 	
 	@Autowired
